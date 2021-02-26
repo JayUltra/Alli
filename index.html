@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>iQube Chocolates</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Maven+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<header>
+<section id="xyz">
+<img src="logo.png" class="logo"></sec>
+<div class="cheese">
+	
+	<h1>iQube Chocolates</h1>
+	<p>Chocolates are always worth spending on!</p>
+	
+</div>
+<div class="button">
+	<a href="#" class="btn"> SHOP</a>
+	<a href="#" class="btn"> LEARN MORE</a>
+</div>
+<div id="navi">
+<nav>
+<ul>
+<li> <a href="#contact-form">INQUIRY TAB</a> </li> 
+</ul>
+</nav>
+</div>
+
+<div id="menubtn">
+<img src="mnu.png" id="menu">
+</div>
+<script>
+var menubtn= document.getElementById("menubtn")
+var navi= document.getElementById("navi")
+var menu= document.getElementById("menu")
+menubtn.onclick= function() {
+if (navi.style.right=="-250px")
+{navi.style.right = "0px";
+menu.src= "close.png";}
+else{
+navi.style.right= "-250px";
+menu.src= "mnu.png"}
+}
+</script>
+</header>
+
+<div id="latest">
+<div id="contact-form" class="contact-form">
+<h2> Got something to ask?</h2>
+<div class="txtb">
+<label></label><input name="" type="text" required="required" placeholder="Enter your name ">
+</div>
+<div class="txtb">
+<label></label><input name="" type="email" required="required" placeholder="Enter your email ">
+</div>
+<div class="txtb">
+<label></label><input name="" type="text" required="required" placeholder="Enter your phone number ">
+</div>
+<div class="txtb">
+<label></label><textarea name="" type="text" required="required" placeholder="How can we help you?"></textarea>
+</div>
+<div class="btni">
+	<a href="#" class="btny"> SEND</a>
+</div></div>
+</div>
+<section id="footer">
+
+<div class="footer-row">
+<p> REACH US!</p></div>
+
+<div class= "social-links">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-youtube-play"></i>
+<p>Copyright iQube Chocolates.<br>View our<a href=Privacy Policy>Privacy Policy</a> and <a href=Terms of Service>Terms of Service</a>.<br>WEBSITE BUILT FOR EDUCATIONAL PURPOSE ONLY.</p></div>
+</section>
+</body>
+</html>
