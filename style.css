@@ -8,7 +8,7 @@
 header{
 	background:radial-gradient(rgba(0,0,0,0.4),black) , url("hostel.png"), 100%;
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	height:100vh;
 	background_position: center;
 	color: #fff;
