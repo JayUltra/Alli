@@ -176,7 +176,7 @@ margin-top: 6px;
 
 
 .about-us{
-  top: 200%;
+  top: 500%;
   height: 100vh;
   width: 100%;
   padding: 90px 0;
@@ -238,7 +238,7 @@ width: 100%;
 padding: 100px 0 100px;
 background-image: linear-gradient(black,rgba(0,0,0,0.4),black), url("pict.png");
 position: absolute;
-top: 200%;
+top: 800%;
 }
 
 
